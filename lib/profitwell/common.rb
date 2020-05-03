@@ -52,12 +52,12 @@ module Profitwell
 
     def access_token
       raise 'Access token is missing' unless Profitwell.access_token
-      @access_token ||= ProfitwellApi.access_token
+      @access_token ||= Profitwell.access_token
     end
 
     def content_type
       raise 'Content type is missing' unless Profitwell.content_type
-      @content_type ||= ProfitwellApi.content_type
+      @content_type ||= Profitwell.content_type
     end
 
     def base_endpoint
