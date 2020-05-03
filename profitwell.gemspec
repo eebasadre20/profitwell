@@ -8,16 +8,16 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Profitwell Ruby API Wrapper"
   spec.description   = "Profitwell Ruby API Wrapper"
-  spec.homepage      = "https://github.com/eebasadre20/profitwell-ruby"
+  spec.homepage      = "https://github.com/eebasadre20/profitwell"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["allowed_push_host"] = ""
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["homepage_uri"] = "https://github.com/eebasadre20/profitwell-ruby"
-  spec.metadata["source_code_uri"] = "https://github.com/eebasadre20/profitwell-ruby"
-  spec.metadata["changelog_uri"] = "https://github.com/eebasadre20/profitwell-ruby/CHANGELOG.md"
+  spec.metadata["homepage_uri"] = "https://github.com/eebasadre20/profitwell"
+  spec.metadata["source_code_uri"] = "https://github.com/eebasadre20/profitwell"
+  spec.metadata["changelog_uri"] = "https://github.com/eebasadre20/profitwell/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
