@@ -15,7 +15,6 @@ Gem::Specification.new do |spec|
   spec.metadata["allowed_push_host"] = ""
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["homepage_uri"] = "https://github.com/eebasadre20/profitwell"
   spec.metadata["source_code_uri"] = "https://github.com/eebasadre20/profitwell"
   spec.metadata["changelog_uri"] = "https://github.com/eebasadre20/profitwell/CHANGELOG.md"
 
