@@ -1,5 +1,7 @@
 # The Profitwell API Ruby Gem
 
+**NOTE: This is still unstable and incomplete.**
+
 A simple and easy to use Ruby wrapper for ProfitWell's REST API.
 
 ProfitWell is the first business intelligence platform to bring together all of your recurring revenue business's financial, usage, and attribution data to one place that's insight laden, absolutely accurate, and 100% free.
