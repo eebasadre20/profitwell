@@ -1,6 +1,6 @@
-# The Profitwell API Ruby Gem
+# NOTE: This is still unstable and incomplete. ( Work in progress )
 
-**NOTE: This is still unstable and incomplete.**
+# The Profitwell API Ruby Gem
 
 A simple and easy to use Ruby wrapper for ProfitWell's REST API.
 
