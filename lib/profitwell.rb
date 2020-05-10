@@ -5,6 +5,8 @@ require "profitwell/exception"
 require "profitwell/common"
 require "profitwell/client"
 require "profitwell/users"
+require "profitwell/subscriptions"
+require "profitwell/plans"
 require "profitwell/version"
 
 module Profitwell
