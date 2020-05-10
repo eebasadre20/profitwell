@@ -16,6 +16,21 @@
     - [ ] update
     - [ ] churn
     - [ ] unchurn
+* Spec
+    * User
+        - [ ] subscriptions
+        - [ ] update
+        - [ ] delete
+    * Plan
+        - [ ] all plans
+        - [ ] find plan
+        - [ ] create
+        - [ ] update
+    * Subscription
+        - [ ] create
+        - [ ] update
+        - [ ] churn
+        - [ ] unchurn
 ## The Profitwell API Ruby Gem
 
 A simple and easy to use Ruby wrapper for ProfitWell's REST API.
