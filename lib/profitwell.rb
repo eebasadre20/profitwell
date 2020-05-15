@@ -4,14 +4,12 @@ require "profitwell/configuration"
 require "profitwell/exception"
 require "profitwell/common"
 require "profitwell/client"
-require "profitwell/users"
 require "profitwell/subscriptions"
 require "profitwell/plans"
+require "profitwell/users"
 require "profitwell/version"
 
 module Profitwell
-  class Error < StandardError; end
-
   extend Configuration
 
   RESOURCES = %w(users plans subscriptions)
