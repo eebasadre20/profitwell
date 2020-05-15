@@ -1,21 +1,21 @@
 # NOTE: This is still unstable and incomplete. ( Work in progress )
 
-## TODO 
+## TODO
 
 * User
     - [x] subscriptions
     - [x] update
     - [x] delete
 * Plan
-    - [ ] all plans
-    - [ ] find plan
-    - [ ] create
-    - [ ] update
+    - [x] all plans
+    - [x] find plan
+    - [x] create
+    - [x] update
 * Subscription
-    - [ ] create
-    - [ ] update
-    - [ ] churn
-    - [ ] unchurn
+    - [x] create
+    - [x] update
+    - [x] churn
+    - [x] unchurn
 * Spec
     * User
         - [ ] subscriptions
@@ -80,3 +80,20 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the Profitwell project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/eebasadre20/profitwell-ruby/blob/master/CODE_OF_CONDUCT.md).
+
+## Contributing
+
+In the spirit of [free software] (https://opensource.org/licenses/MIT ), everyone is welcome for collaboration to help improve this simple project.
+
+- by suggesting better implementation
+- by suggesting new features
+- by reporting bugs
+- by writing or editing documentation
+- by writing specifications
+- by refactoring code
+- by closing issues
+- by reviewing patches
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
