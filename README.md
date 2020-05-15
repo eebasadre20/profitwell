@@ -61,6 +61,7 @@ Or install it yourself as:
 Profitwell.config do | config |
     config.access_token = "<access_token_from_profitwell>"
 end
+```
 
 
 ## Contributing
