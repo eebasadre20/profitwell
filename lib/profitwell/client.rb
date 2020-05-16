@@ -1,7 +1,5 @@
 module Profitwell
   module Client
-    include Common
-
     def api_status
       request(
         "get",

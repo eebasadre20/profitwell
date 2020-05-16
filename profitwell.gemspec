@@ -28,6 +28,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "httparty"
-  spec.add_dependency "oj"
+  spec.add_dependency "hashie"
   spec.add_development_dependency "rspec", "~> 3.2"
+  spec.add_development_dependency "webmock", "~> 3.8", ">= 3.8.3"
+  spec.add_development_dependency 'pry'
 end

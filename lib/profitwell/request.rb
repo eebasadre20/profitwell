@@ -1,13 +1,6 @@
 module Profitwell
-  module Common
+  module Request
     include HTTParty
-
-    ERROR_CODES = {
-      400 => BadRequest,
-      401 => Unauthorized,
-      404 => NotFound,
-      502 => BadGateway,
-    }.freeze
 
     def resource_path(path = nil, options = "")
       return "#{base_endpoint}/#{path}/?#{options}" if options.nil?
@@ -16,20 +9,18 @@ module Profitwell
     end
 
     def request(http_method, endpoint, options: {})
-      response = HTTParty.send(http_method, endpoint, params(options).merge!(authorization_header))
-      if response.success?
-        parse_success response
-      else
-        parse_failed response
-      end
+      response = HTTParty.send(http_method, endpoint, request_params(options))
+      parsed_response(response)
     end
 
     private
 
-    def params(values)
-      {
-        body: values.to_json
-      }
+    def request_params(options)
+      params_with_options(options).merge!(authorization_header)
+    end
+
+    def params_with_options(values)
+      { body: values.to_json }
     end
 
     def authorization_header
@@ -41,13 +32,8 @@ module Profitwell
       }
     end
 
-    def parse_success(response)
-      response_hash = response
-    end
-
-    def parse_failed(response)
-      error = ERROR_CODES[response.code].new(response)
-      raise error, error.message
+    def parsed_response(response)
+      Response.create(response)
     end
 
     def access_token
