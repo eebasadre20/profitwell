@@ -10,7 +10,7 @@ module Profitwell
     DEFAULT_ACCESS_TOKEN  = nil
     DEFAULT_VERSION       = "v2".freeze
     DEFAULT_BASE_ENDPOINT      = "https://api.profitwell.com/v2".freeze
-    DEFAULT_CONTENT_TYPE  = "application/json".freeze
+    DEFAULT_CONTENT_TYPE  = "application/json; charset=utf-8".freeze
 
     attr_accessor *VALID_OPTIONS_KEYS
 

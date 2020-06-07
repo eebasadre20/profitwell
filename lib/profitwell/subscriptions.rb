@@ -1,6 +1,6 @@
 module Profitwell
   class Subscriptions
-    include Client
+    include Request
 
     # params values
     def create(params = {})

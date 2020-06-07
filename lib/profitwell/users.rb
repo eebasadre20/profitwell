@@ -1,6 +1,6 @@
 module Profitwell
   class Users
-    include Client
+    include Request
 
      def subscriptions(user_alias = nil)
       request(

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "free-plan",
+    "name": "Free subscription plan"
+  },
+  {
+    "id": "pro-plan",
+    "name": "Pro subscription plan"
+  },
+  {
+    "id": "premium-plan",
+    "name": "Premium subscription plan"
+  },
+  {
+    "id": "basic-plan",
+    "name": "Basic subscription plan"
+  }
+]
